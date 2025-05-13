@@ -9,62 +9,130 @@
 <body>
   <header>
     <nav class="navbar">
-      <h1 class="logo">Anjesh Pathak</h1>
-      <ul id="nav-links" class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div class="logo">Anjesh.</div>
       <div class="hamburger" onclick="toggleMenu()">
-        <span></span><span></span><span></span>
-      </div>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>      
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about"> About</a></li>
+        <li><a href="#skills"> Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <button class="dropbtn">Resume</button>
+          <div class="dropdown-content">
+            <a href="Cybersecurity resume.pdf" download>Cybersecurity Resume</a>
+            <a href="Anjesh_s_Resumes.pdf" download>Software Resume</a>
+          </div>
+        </li>
+      </uu>
     </nav>
   </header>
 
-  <section id="home" class="section">
-    <h2>Welcome!</h2>
-    <p>I am Anjesh Pathak, a Computer Science student passionate about software development and cybersecurity.</p>
-  </section>
+  <main>
+    <section class="hero">
+      <p class="intro">Hi, my name is</p>
+      <h1>Anjesh Pathak.</h1>
+      <h2>I build things for the web.</h2>
+      <p class="description">
+        I'm a software and cybersecurity enthusiast specializing in building scalable web applications and assessing digital vulnerabilities. Currently, I'm focused on full-stack Java development and hands-on security assessments.
+      </p>
+      <a href="#projects" class="cta">View My Work</a>
+    </section>
 
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-      Final-year BE CSE student at Chandigarh University. I specialize in Java, Spring Boot, Android Development, and Cybersecurity. I've worked with OWASP ZAP, Nmap, and the OpenAI API.
-    </p>
-    <p>
-      <strong>Skills:</strong> Java, Spring Boot, Hibernate, MySQL, Python, SQL, HTML, CSS, JS, Network Security, IDS, SIEM, Git.
-    </p>
-  </section>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate and driven individual with a strong commitment to personal and professional growth. With a background in Computer Science Engineering, I enjoy solving problems, learning new technologies, and collaborating with others to bring ideas to life. I take pride in being both a critical thinker and a creative mind, always seeking to understand the "why" behind things and explore better ways to get results.
+        Over time, I've developed strong communication, organizational, and analytical skills, which help me thrive in team environments and take ownership of tasks. Whether I'm working on a project, learning a new skill, or helping someone solve a challenge, I bring enthusiasm, focus, and a willingness to adapt.
+        Outside of work or academics, I enjoy reading, exploring technology trends, traveling and exploring geopolitics. I believe in lifelong learning and continually look for ways to grow both personally and professionally.
+        I'm excited about the future and eager to take on new challenges that will push my limits and help me contribute meaningfully to the world around me.
+        <!-- Final-year BE CSE student at Chandigarh University with interests in Java, Spring Boot, Android, and Cybersecurity. Strong with OWASP ZAP, Nmap, CVEs, and OpenAI integrations. -->
+      </p>
+    </section>
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Java, Python, SQL</li>
+            <li>Spring Boot, Hibernate, REST APIs</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>MySQL, Git, Maven</li>
+            <li>OWASP ZAP, Nmap, CVE Analysis, IDS</li>
+            <li>Linux, Network Security, SIEM, SDLC</li>
+          </ul>
+        </div>
+        <div class="skills-box">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Critical Thinking</li>
+            <li>Teamwork and Collaboration</li>
+            <li>Active Listening</li>
+            <li>Problem Solving</li>
+            <li>Analytical Skills</li>
+            <li>Effective Communication</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>AI-Powered Resume Builder</h3>
-      <p>Built using Java Spring Boot, MySQL, and OpenAI API. Users can generate resumes with AI suggestions.</p>
-    </div>
-    <div class="project">
-      <h3>Urban Residential Properties</h3>
-      <p>Real estate listing app with search and CRUD features. Built with Spring Boot and MySQL.</p>
-    </div>
-    <div class="project">
-      <h3>Human Activity Recognition</h3>
-      <p>Final year project using wearable camera footage to detect human activities in real-time.</p>
-    </div>
-    <div class="project">
-      <h3>Cybersecurity Assessments</h3>
-      <p>Performed website vulnerability scans using OWASP ZAP and Nmap, mapped findings to CVEs, and wrote detailed reports.</p>
-    </div>
-  </section>
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Software Engineer Intern – CRUD Studio</h3>
+          <span>Jun 2024 – Dec 2024</span>
+          <span>Remote</span>
+          <p>Led backend development and database integration; optimized query performance; used MySQL and Spring Boot.</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:anjeshpathak2021@gmail.com">anjeshpathak2021@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/Anjesh23" target="_blank">github.com/Anjesh23</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/anjesh-pathak" target="_blank">linkedin.com/in/anjesh-pathak</a></p>
-    <a href="Cybersecurity resume.pdf" download class="btn">Download Cybersecurity Resume</a>
-    <a href="Anjesh_s_Resumes.pdf" download class="btn">Download Software Resume</a>
-  </section>
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>AI-Powered Resume Builder</h3>
+          <p> Developed an AI-powered resume builder that enables users to create and store resumes efficiently, leveraging
+            machine learning for content optimization.</p>
+          <p>Built with Java Spring Boot, MySQL, OpenAI API. Generates AI-assisted resumes.</p>
+        </div>
+        <div class="timeline-item">
+          <h3> Ecommerce Platform</h3>
+          <p>Implemented core functionalities, including product catalogs, shopping carts, and product management
+            features, to enhance user experience and transaction efficiency</p>
+            <p>Built with Java Spring Boot, MySQL,Meven</p>
+        </div>
+        <div class="timeline-item">
+          <h3> Incident report analysis</h3>
+          <p> Analyzed and documented a simulated DDoS (ICMP flood) attack using the NIST Cybersecurity Framework
+            (CSF) to categorize actions across Identify, Protect, Detect, Respond, and Recover phases.</p>
+            <p>Drafted an incident response and recovery plan emphasizing service restoration prioritization, threat isolation,
+              and post-incident log analysis and reporting protocols</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Cybersecurity Assessments</h3>
+          <p>Conducted vulnerability scans on websites using OWASP ZAP and Nmap, identifying issues like SQL injection,
+            XSS, and directory traversal.</p>
+            <p> Mapped discovered vulnerabilities to CVEs and analyzed severity using CVSS scores and the NVD database.</p>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:anjeshpathak2021@gmail.com">anjeshpathak2021@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Anjesh23" target="_blank">github.com/Anjesh23</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/anjesh-pathak" target="_blank">linkedin.com/in/anjesh-pathak</a></p>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 Anjesh Pathak. All rights reserved.</p>
