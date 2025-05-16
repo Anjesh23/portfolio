@@ -43,11 +43,11 @@
     gap: 1.5rem;
     align-items: center;
   }
-  
+/*   
   /* Dropdown Resume Button */
-  .dropdown {
+  /* .dropdown {
     position: relative;
-  }
+  } 
   
   .dropbtn {
     background-color: transparent;
@@ -69,13 +69,8 @@
     min-width: 200px;
     z-index: 1;
     border-radius: 4px;
-  }
-  /* justified content for about me */
-  
- #about,#projects p {
-    text-align: justify;
-  }
-  
+  } */
+/*   
   .dropdown-content a {
     display: block;
     padding: 0.75rem 1rem;
@@ -90,8 +85,8 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
-  .hamburger {
+   */
+   .hamburger {
     display: none;
     flex-direction: column;
     gap: 5px;
@@ -103,7 +98,14 @@
     width: 25px;
     background: #64ffda;
     border-radius: 2px;
+  } 
+
+    /* justified content for about me */
+  
+ #about,#projects p {
+    text-align: justify;
   }
+
   /* Skills Section */
 .skills-container {
   display: flex;
